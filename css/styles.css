@@ -44,6 +44,7 @@ h3 {
   border-radius: var(--border-radius);
   margin: 1rem;
   padding-bottom: 2rem;
+  width: 50%;
 }
 
 .card__body {
@@ -78,5 +79,16 @@ h3 {
   }
   .card__image-desktop {
     display: flex;
+  }
+}
+
+/* Grid */
+.grid {
+  display: grid;
+}
+
+@media screen and (min-width: 1440px) {
+  .grid--cols2 {
+    grid-template-columns: 1fr 1fr;
   }
 }
