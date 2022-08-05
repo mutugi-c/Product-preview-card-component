@@ -93,26 +93,30 @@ h3 {
   }
 }
 
-/* Badge */
-.badge {
-  background-color: hsl(0, 0%, 100%);
-  padding: 0.5rem 0.5rem;
-  border-radius: var(--border-radius);
+/* Lists */
+.price--container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
-.badge--container {
-  margin-bottom: 2rem;
+.price__list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  width: auto;
 }
 
-.badge--primary {
+.price__item-primary {
   color: var(--color-primary);
   font-size: 4rem;
   font-family: "Fraunces", serif;
+  margin-right: 2rem;
 }
 
-.badge--small {
-  font-size: 1.4rem;
+.price__item-small {
   text-decoration: line-through;
+  align-self: center;
 }
 
 /* Button */
