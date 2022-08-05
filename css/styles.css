@@ -92,3 +92,27 @@ h3 {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+/* Badge */
+.badge {
+  background-color: hsl(0, 0%, 100%);
+  padding: 0.5rem 0.5rem;
+  border-radius: var(--border-radius);
+  white-space: nowrap;
+}
+
+.badge--container {
+  margin-bottom: 2rem;
+  display: block;
+}
+
+.badge--primary {
+  color: var(--color-primary);
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.badge--small {
+  font-size: 1.6rem;
+  text-decoration: line-through;
+}
