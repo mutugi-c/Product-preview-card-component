@@ -1,0 +1,23 @@
+{
+  "name": "product-preview-card-component",
+  "version": "1.0.0",
+  "description": "![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mutugi-c/Product-preview-card-component.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mutugi-c/Product-preview-card-component/issues"
+  },
+  "homepage": "https://github.com/mutugi-c/Product-preview-card-component#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.3.1"
+  }
+}
