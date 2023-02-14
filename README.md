@@ -32,7 +32,7 @@ The challenge was to create a product preview card component that users should b
 
 ## My process
 
-### Built with
+### Built with these:
 
 - Semantic HTML5 markup
 - CSS custom properties
